@@ -92,7 +92,7 @@ header nav li:last-of-type a{
 
 }
 .main_screen article p{
-    font: 14px/20px 'poppinsregular';
+    /*font: 14px/20px 'poppinsregular';*/
     font: 400 14px/20px'Poppins', sans-serif;
     text-align: center;
     color: #C0C0C0;
@@ -139,11 +139,48 @@ div.item a {
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-
 .second_screen article h3 {
     font: 400 24px/30px 'Poppins', sans-serif;
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 22px;
 }
+.sunset {
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+.monstera {
+    background-image: url("../images/monstera.jpg");
+}
+.hymalayas {
+    background-image: url("../images/himalayas.jpg");
+}
 
+.sunset article {
+    max-width: 298px;
+}
+.sunset article h4 {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset article p {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #C0C0C0;
+}
+.clients {
+    padding: 113px 0 140px;
+    background-color: black;
+}
+.clients.container {
+    max-width: 1168px;
+    margin: auto;
+}
