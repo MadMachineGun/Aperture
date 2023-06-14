@@ -66,7 +66,6 @@ header nav li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 83px);
-
 }
 .main_screen article {
     max-width: 580px;
@@ -206,3 +205,85 @@ div.item a {
     display: block;
     width: 100%;
 }
+footer {
+    background: #000000;
+}
+footer .container {
+    max-width: 1168px;
+    margin: auto;
+}
+.first-footer {
+    padding-top: 100px;
+    display: flex;
+    padding-bottom: 46px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.logo a {
+    background: transparent;
+    align-items: flex-start;
+}
+.logo p, .subscribe p   {
+    font: 400 13px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    padding-top: 20px;
+    color: #C0C0C0;
+}
+.business_areas {
+    margin-left: 270px;
+    margin-right: 55px;
+}
+.business_areas ul li,
+.pages_list ul li {
+    margin-bottom: 10px;
+}
+.business_areas ul li:nth-child(1) a,
+.pages_list ul li:nth-child(1) a, h4 {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #C0C0C0;
+}
+.business_areas ul li:not(:nth-child(1)) a,
+.pages_list ul li:not(:nth-child(1)) a {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.second-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe h4 {
+    padding-top: 38px;
+ }
+.subscribe p {
+    margin-top: 20px;
+    padding-bottom: 38px;
+}
+
+.second-footer .form {
+    display: flex;
+    align-items: center;
+}
+
+.second-footer .form form {
+    width: 458px;
+    height: 52px;
+    background: #FFFFFF;
+}
+
+.second-footer .form form button[type="submit"] {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    border-radius: 11px;
+    color: transparent;
+    border: none;
+}
+
+
