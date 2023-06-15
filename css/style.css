@@ -224,7 +224,7 @@ footer .container {
 }
 .footer-content {
     display: flex;
-    margin-right: 136px;
+    margin-right: 106px;
  }
 .business_areas li,.pages_list li {
     margin-bottom: 10px;
@@ -262,7 +262,7 @@ footer .container {
 }
 .form {
     display: flex;
-    max-width: 458px;
+    width: 458px;
     height: 52px;
     align-items: center;
     text-align: center;
@@ -272,7 +272,7 @@ footer .container {
 }
 .form input {
     visibility: hidden;
-}
+    }
 .form input:focus {
     outline: none;
 }
