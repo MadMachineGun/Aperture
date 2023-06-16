@@ -195,7 +195,7 @@ footer .container {
     max-width: 1168px;
     margin: auto;
 }
-.first {
+.first-footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 46px;
@@ -236,7 +236,7 @@ footer .container {
 .business {
     margin-right: 55px;
 }
-.second {
+.second-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -273,19 +273,19 @@ form button {
     margin-left: auto;
     margin-right: 6px;
 }
-.third {
+.third-footer {
     display: flex;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     padding: 56px 0 100px;
 }
-.third p {
+.third-footer p {
     justify-content: flex-start;
     font: 400 13px/1em 'Poppins', sans-serif;
     font-style: normal;
     color: #C0C0C0;
 }
-.third a {
+.third-footer a {
     margin-left: 26px;
 }
