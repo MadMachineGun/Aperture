@@ -335,3 +335,131 @@ form button {
     background-image: url("../images/iceland.svg");
     width: 10px;
 }
+.what_we_do {
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.what_we_do .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.what_we_do .container h2 {
+    font: 400 40px/42px 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.what_we_do .container h3 {
+    font: 400 23px/30px 'Poppins', sans-serif;
+    padding-top: 15px;
+    font-style: normal;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+
+.specialized {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product, .architecture, .drone, .wildlife {
+    display: block;
+    width: 100%;
+    max-width: 576px;
+    height: 600px;
+    margin-bottom: 16px;
+}
+.product {
+    background-image: url("../images/product.jpg");
+}
+
+.architecture {
+    background-image: url("../images/architecture.jpg");
+}
+
+.drone {
+    background-image: url("../images/drone.jpg");
+}
+
+.wildlife {
+    background-image: url("../images/wildlife.jpg");
+}
+.specialized article {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.specialized h4{
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.specialized p {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #C0C0C0;
+    padding-bottom: 17px;
+}
+.specialized a{
+    font: 400 15px/32px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #000000;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+}
+.specialized a:before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+}
+.specialized div{
+    margin: auto;
+    max-width: 516px;
+    padding-bottom: 30px;
+}
+/*.gear_cage {*/
+/*    background-color: black;*/
+/*    padding: 80px 0;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.tools {*/
+/*    width: 50%;*/
+/*    color: white;*/
+/*}*/
+
+/*.bottom_icons {*/
+/*    background-image: url("../images/product.jpg");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    padding: 20px;*/
+/*    list-style: none;*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*}*/
+
+/*.gear_cage .container {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
