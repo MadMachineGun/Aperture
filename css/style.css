@@ -6,7 +6,10 @@
 header {
     background: #181818;
     padding: 24px 0;
-    }
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+   }
 header .container {
     max-width: 1200px;
     margin: auto;
@@ -43,19 +46,21 @@ header nav li:last-of-type a{
     background: #FFFFFF;
     border-radius: 14px;
     font-size: 16px;
-     color: #000000;
+    color: #000000;
     padding: 11px 20px;
 }
-.main {
+.main_screen {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 71px;
     background-image: url("../images/main-background.jpg");
     background-size: cover;
+    box-sizing: border-box;
     height: calc(100vh - 83px);
+    position: relative;
 }
-.main article {
+.main_screen article {
     max-width: 580px;
 }
 .main article h3{
@@ -67,14 +72,14 @@ header nav li:last-of-type a{
     color: #C0C0C0;
 
 }
-.main article h1{
+.main_screen article h1{
     margin-bottom: 18px;
     font: 400 54px/59px'Poppins', sans-serif;
     text-align: center;
     color: #FFFFFF;
 
 }
-.main article p{
+.main_screen article p{
     font: 400 14px/20px'Poppins', sans-serif;
     text-align: center;
     color: #C0C0C0;
@@ -86,9 +91,12 @@ header nav li:last-of-type a{
     min-height: 600px;
     display: flex;
     justify-content: flex-end;
+    box-sizing: border-box;
     align-items: center;
     padding-right: 62px;
+    position: relative;
 }
+
 .monstera {
     background-image: url("../images/monstera.jpg");
 }
@@ -195,16 +203,17 @@ footer .container {
     max-width: 1168px;
     margin: auto;
 }
-.first {
+.first-footer {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
     padding-bottom: 46px;
     border-bottom: 2px solid #FFFFFF;
 }
 .content {
     display: flex;
     margin-right: 106px;
- }
+}
 .logo p, .subscribe p   {
     font: 400 13px/20px 'Poppins', sans-serif;
     font-style: normal;
@@ -236,10 +245,11 @@ footer .container {
 .business {
     margin-right: 55px;
 }
-.second {
+.second-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
     border-bottom: 2px solid #FFFFFF;
 }
 .subscribe h4 {
@@ -260,7 +270,7 @@ footer .container {
 }
 .form input {
     visibility: hidden;
-    }
+}
 .form input:focus {
     outline: none;
 }
@@ -273,19 +283,55 @@ form button {
     margin-left: auto;
     margin-right: 6px;
 }
-.third {
+.third-footer {
     display: flex;
     margin: auto;
     justify-content: space-between;
+    box-sizing: border-box;
     align-items: center;
     padding: 56px 0 100px;
 }
-.third p {
+.third-footer p {
     justify-content: flex-start;
     font: 400 13px/1em 'Poppins', sans-serif;
     font-style: normal;
     color: #C0C0C0;
 }
-.third a {
+.third-footer a {
     margin-left: 26px;
+}
+.bottom_icons {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.bottom_icons li {
+    font: 400 12px/12px 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.bottom_icons li:before {
+    content:"";
+    display: inline-block;
+    background-image: url("../images/12000s.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.bottom_icons li:nth-of-type(2):before {
+    background-image: url("../images/f11.svg");
+}
+.bottom_icons li:nth-of-type(3):before {
+    background-image: url("../images/iso.svg");
+    width: 32px;
+}
+.bottom_icons li:last-of-type:before {
+    background-image: url("../images/iceland.svg");
+    width: 10px;
 }
