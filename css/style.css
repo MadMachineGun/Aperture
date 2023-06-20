@@ -9,7 +9,7 @@ header {
     /*position: fixed;*/
     /*z-index: 99;*/
     /*width: 100%;*/
-   }
+}
 header .container {
     max-width: 1200px;
     margin: auto;
@@ -56,7 +56,7 @@ header nav li:last-of-type a{
     padding-bottom: 71px;
     background-image: url("../images/main-background.jpg");
     background-size: cover;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     height: calc(100vh - 83px);
     position: relative;
 }
@@ -206,7 +206,7 @@ footer .container {
 .first-footer {
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     padding-bottom: 46px;
     border-bottom: 2px solid #FFFFFF;
 }
@@ -249,7 +249,7 @@ footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     border-bottom: 2px solid #FFFFFF;
 }
 .subscribe h4 {
@@ -287,7 +287,7 @@ form button {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     align-items: center;
     padding: 56px 0 100px;
 }
