@@ -508,7 +508,6 @@ form button {
 .gear_cage .content {
     position: relative;
     width: 50%;
-    padding-left: 30px;
     display: inline-block;
 }
 
@@ -527,7 +526,7 @@ form button {
 }
 
 .gear_cage p {
-    width: 514px;
+    width: 504px;
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
     color: #FFFFFF;
