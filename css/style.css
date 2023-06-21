@@ -506,9 +506,12 @@ form button {
 }
 
 .gear_cage .content {
+    align-items: flex-start;
     position: relative;
     width: 50%;
     display: inline-block;
+    padding-top: 173px;
+    padding-bottom: 153px;
 }
 
 .gear_cage h4 {
