@@ -499,22 +499,14 @@ form button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+ }
 
 .gear_cage article {
-    width: 50%;
-}
-
-.gear_cage .content {
     align-items: flex-start;
-    position: relative;
-    width: 50%;
     display: inline-block;
-    padding-top: 173px;
-    padding-bottom: 153px;
-}
+  }
 
-.gear_cage h4 {
+.gear_cage article h4 {
     font: 400 14px/20px 'Poppins', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -522,13 +514,13 @@ form button {
     margin-bottom: 6px;
 }
 
-.gear_cage h3 {
+.gear_cage article h3 {
     font: 400 28px/32px 'Poppins', sans-serif;
     font-style: normal;
     color: #FFFFFF;
 }
 
-.gear_cage p {
+.gear_cage article p {
     width: 504px;
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
@@ -537,7 +529,7 @@ form button {
     margin-bottom: 20px;
 }
 
-.gear_cage a {
+.gear_cage article a {
     font: 400 16px/32px 'Poppins', sans-serif;
     font-style: normal;
     color: #000000;
@@ -549,7 +541,7 @@ form button {
     padding: 5px 10px 5px 4px;
 }
 
-.gear_cage a:before {
+.gear_cage article a:before {
     display: inline-block;
     content: "";
     width: 32px;
