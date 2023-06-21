@@ -434,7 +434,8 @@ form button {
 
 .areas article {
     position: relative;
-    width: calc(50% - 8px);
+    max-width: 576px;
+    /*width: calc(50% - 8px);*/
 }
 
 .areas .content {
