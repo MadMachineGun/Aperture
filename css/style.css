@@ -491,6 +491,7 @@ form button {
 
 .gear_cage {
     background-color: black;
+    position: relative;
 }
 
 .gear_cage .container {
@@ -504,6 +505,7 @@ form button {
 .gear_cage article {
     align-items: flex-start;
     display: inline-block;
+    min-height: 540px;
   }
 
 .gear_cage article h4 {
@@ -511,6 +513,7 @@ form button {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
+    padding-top: 173px;
     margin-bottom: 6px;
 }
 
@@ -552,11 +555,15 @@ form button {
 }
 
 .gear_cage .right_side {
+    min-height: 540px;
     width: 50%;
-    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/tools.jpg");
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.gear_cage .image {
-    width: 100%;
-    display: block;
-}
