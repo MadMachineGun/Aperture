@@ -1,29 +1,29 @@
 /*@media only screen and (max-width: 1024px) {*/
-/*    !* Ваш код стилей для устройств с диагональю 1024px *!*/
+
 /*}*/
 
 /*@media only screen and (max-width: 992px) {*/
-/*    !* Ваш код стилей для устройств с диагональю 992px *!*/
+
 /*}*/
 
 /*@media only screen and (max-width: 834px) {*/
-/*    !* Ваш код стилей для устройств с диагональю 834px *!*/
+
 /*}*/
 
 /*@media only screen and (max-width: 820px) {*/
-/*    !* Ваш код стилей для устройств с диагональю 820px *!*/
+
 /*}*/
 
 /*@media only screen and (max-width: 800px) {*/
-/*    !* Ваш код стилей для устройств с диагональю 800px *!*/
+
 /*}*/
 
 /*@media only screen and (max-width: 768px) {*/
-/*    !* Ваш код стилей для устройств с диагональю 768px *!*/
+
 /*}*/
 
 /*@media only screen and (max-width: 428px) {*/
-/*    !* Ваш код стилей для устройств с диагональю 428px *!*/
+
 /*}*/
 
 /*@media only screen and (max-width: 414px) {*/
@@ -49,10 +49,6 @@
 /*@media only screen and (max-width: 280px) {*/
 
 /*}*/
-
-/* Стили для экранов шириной от 1024px (настольные компьютеры) */
-
-/* Общие стили */
 
 /* Стили для диагонали 768px */
 @media (max-width: 882px) {
@@ -81,7 +77,7 @@
         padding-bottom: 142px;
     }
 
-    .main article {
+    .main_screen article {
         max-width: 580px;
     }
 
@@ -134,17 +130,17 @@
         margin-bottom: 18px;
     }
 
-    .specialized .container {
+    .what_we_do .container {
         max-width: 768px;
     }
 
-    .container .spec_areas {
+    .container .areas {
         padding-bottom: 30px;
         max-width: 768px;
 
     }
 
-    .specialized .container h2 {
+    .what_we_do .container h2 {
         padding-top: 60px;
         margin-bottom: 15px;
     }
@@ -167,7 +163,7 @@
         margin-right: 40px;
     }
 
-    .second {
+    .content .second-footer {
         margin-bottom: 30px;
     }
 
@@ -184,15 +180,15 @@
         padding-bottom: 20px;
     }
 
-    .third {
+    .third-footer {
         padding: 28px 0 50px;
     }
 
-    .third p {
+    .third-footer p {
         font-size: 12px;
     }
 
-    .third .social {
+    .third-footer .social {
         margin-right: 26px;
 
     }
