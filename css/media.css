@@ -195,7 +195,7 @@
 }
 
 /* Стили для диагонали 428px */
-@media (max-width: 428px) {
+@media (max-width: 450px) {
     header .container {
         padding-left: 5px;
         padding-right: 5px;
