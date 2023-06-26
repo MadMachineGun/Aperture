@@ -572,4 +572,7 @@ footer .container {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
