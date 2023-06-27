@@ -639,7 +639,7 @@ footer .container {
     font-size: 1em;
 }
 .ui-widget-content {
-    border: 0px solid #dddddd;
+    border: 0 solid #dddddd;
     background: black;
     color: black;}
 
