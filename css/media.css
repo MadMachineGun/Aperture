@@ -214,6 +214,14 @@
         margin-right: 26px;
 
     }
+    .flex_block.owl-carousel .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex_block.owl-carousel .owl-item img {
+        width: 100%;
+    }
 }
 
 /* Стили для диагонали 428px */
