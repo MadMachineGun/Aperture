@@ -65,7 +65,6 @@ header nav li:last-of-type a {
     padding-bottom: 71px;
     background-image: url("../images/main-background.jpg");
     background-size: cover;
-    /*box-sizing: border-box;*/
     height: calc(100vh - 83px);
     position: relative;
 }
@@ -618,6 +617,11 @@ footer .container {
     top: -49px;
     left: -48px;
 }
+
+#dialog {
+   margin: auto;
+   overflow: hidden;
+}
 .ui-widget.ui-widget-content{
     width: 500px !important;
 }
@@ -634,19 +638,36 @@ footer .container {
     border-top-left-radius: 0;
 }
 .ui-widget {
-    font-family: Arial,Helvetica,sans-serif;
+    font: 400 20px/30px 'Poppins', sans-serif;
     color: white;
-    font-size: 1em;
 }
-.ui-widget-content {
-    border: 0 solid #dddddd;
-    background: black;
-    color: black;}
 
 .ui-widget-content {
-    border:none;
+    border: 0;
     background: black;
     color: white;}
+
 .ui-widget.ui-widget-content {
     border: none;
+}
+.ui-dialog .ui-dialog-content {
+    padding: 0;
+}
+.ui-dialog .ui-dialog-title {
+    width: 65%;
+    margin: 0;
+}
+#dialog .form {
+    background-image: url("../images/diagram.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#dialog .form p {
+    padding: 7px;
+}
+#dialog .form button {
+    padding: 7px;
+    margin: 10px 0 0 10px;
+    border: none;
+    outline: none;
 }

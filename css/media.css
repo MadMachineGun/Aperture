@@ -506,5 +506,25 @@
     .flex_block.owl-carousel .owl-item img {
         width: 100%;
     }
+    #dialog {
+        max-width: 200px;
+        display: inline-block;
+        font-size: 15px;
+        align-items: center;
+
+
+    }
+    .ui-dialog-titlebar {
+        max-width: 200px;
+        font-size: 15px;
+    }
+    .ui-dialog .ui-dialog-title {
+        width: 90%;
+        margin: 0;
+    }
+    .ui-widget-content {
+        background: transparent;
+    }
+
 }
 
