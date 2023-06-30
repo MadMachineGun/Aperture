@@ -11,14 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Aperture</title>
 <!--    <link rel="icon" type="image/x-icon" href="images/logo.svg">-->
-    <link rel="stylesheet" href="css/reset.css">
+<!--    <link rel="stylesheet" href="css/reset.css">-->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/mobile_menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-   </head>
+</head>
 <body>
 <div id="dialog" title="FigJam templates">
     <form class="form" action="https://www.figma.com/file/0xxNs5s9sESJE211dX5VQo/Untitled?type=whiteboard&node-id=0-1&t=pc9lMySID5YIBAi6-0" method="get" target="_blank">
@@ -26,22 +27,62 @@
         <p>Draw a journey from start to finish, and visualize all different pathways.</p>
     </form>
 </div>
-<header>
-    <div class="container">
-        <a href="#">
-            <img src="images/aperture.svg" alt="Logo.img" class="logo-img">
-        </a>
-        <nav>
-            <ul class="nav">
-                <li><a href="#">Business areas</a></li>
-                <li><a href="#">Featured images</a></li>
-                <li><a href="#">Gear cages</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a id="opener">Get template</a></li>
-            </ul>
-        </nav>
+<!--<header>-->
+<!--    <div class="container">-->
+<!--        <a href="#">-->
+<!--            <img src="images/aperture.svg" alt="Logo.img" class="logo-img">-->
+<!--        </a>-->
+<!--        <nav>-->
+<!--            <ul class="nav">-->
+<!--                <li><a href="#">Business areas</a></li>-->
+<!--                <li><a href="#">Featured images</a></li>-->
+<!--                <li><a href="#">Gear cages</a></li>-->
+<!--                <li><a href="#">Contact</a></li>-->
+<!--                <li><a id="opener">Get template</a></li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
+<header class="cd-header">
+    <div class="header-wrapper">
+        <div class="logo-wrap">
+            <a href="#" class="hover-target"><span>your</span>logo</a>
+        </div>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
     </div>
 </header>
+
+<div class="nav">
+    <div class="nav__content">
+        <ul class="nav__list">
+            <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section full-height over-hide">
+    <div class="switch-wrap">
+        <h1>overlay menu</h1>
+        <div id="switch" class="hover-target">
+            <div id="circle"></div>
+        </div>
+        <p><span>dark</span> - <span>light</span></p>
+    </div>
+</div>
+
+<div class='cursor' id="cursor"></div>
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
 <main>
     <section class="main_screen">
         <article>
