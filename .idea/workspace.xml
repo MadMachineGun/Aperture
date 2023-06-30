@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="300623_diag">
-      <change afterPath="$PROJECT_DIR$/css/mobile_menu.css" afterDir="false" />
+    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="300623">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mobile_menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile_menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688141325778</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="300623">
+      <created>1688143625337</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688143625337</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +411,7 @@
     <MESSAGE value="270623_1" />
     <MESSAGE value="270623_fix" />
     <MESSAGE value="300623_diag" />
-    <option name="LAST_COMMIT_MESSAGE" value="300623_diag" />
+    <MESSAGE value="300623" />
+    <option name="LAST_COMMIT_MESSAGE" value="300623" />
   </component>
 </project>
