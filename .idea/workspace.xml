@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="300623">
+    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="040723">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_06_2023_11_01_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mobile_menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile_menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Hillel Project/Aperture&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PHP Project/Aperture&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -104,7 +101,9 @@
       <workItem from="1687867294741" duration="13000" />
       <workItem from="1687883523520" duration="59000" />
       <workItem from="1687883714151" duration="5420000" />
-      <workItem from="1688487185014" duration="5024000" />
+      <workItem from="1688487185014" duration="5285000" />
+      <workItem from="1688493422259" duration="614000" />
+      <workItem from="1688647227923" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="Aperture">
       <created>1686845627201</created>
@@ -372,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688147121650</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="040723">
+      <created>1688493001479</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1688493001479</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aperture" />
     <MESSAGE value="150623" />
     <MESSAGE value="150623_2" />
     <MESSAGE value="180623" />
@@ -421,6 +426,7 @@
     <MESSAGE value="270623_fix" />
     <MESSAGE value="300623_diag" />
     <MESSAGE value="300623" />
-    <option name="LAST_COMMIT_MESSAGE" value="300623" />
+    <MESSAGE value="040723" />
+    <option name="LAST_COMMIT_MESSAGE" value="040723" />
   </component>
 </project>
